@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "SwiftyMPDClient",
             dependencies: [],
-			path: "./libmpdclient/src"),
+			path: "./Sources/SwiftyMPDClient"),
         .testTarget(
             name: "SwiftyMPDClientTests",
             dependencies: ["SwiftyMPDClient"]),
