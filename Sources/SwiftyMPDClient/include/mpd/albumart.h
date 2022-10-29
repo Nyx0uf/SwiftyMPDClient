@@ -87,6 +87,9 @@ mpd_run_albumart(struct mpd_connection *connection,
                  const char *uri, unsigned offset,
                  void *buffer, size_t buffer_size);
 
+long long
+mpd_run_albumart2(struct mpd_connection *connection, const char *uri, unsigned char **buf);
+
 #ifdef __cplusplus
 }
 #endif
