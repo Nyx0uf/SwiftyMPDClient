@@ -1,3 +1,7 @@
 # SwiftyMPDClient
 
-A description of this package.
+**SwiftyMPDClient** is just a Swift package wrapper around libmpdclient.
+
+## License
+
+Same as libmpdclient, BSDv2
